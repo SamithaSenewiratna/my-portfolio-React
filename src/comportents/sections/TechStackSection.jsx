@@ -25,10 +25,15 @@ import {
   SiApachenetbeanside,
   SiFigma,
   SiPostman,
+  SiFlutter,
+  SiDart,
+  SiTensorflow,
+  SiOpenai,
+  SiKubernetes,
 
 
 } from "react-icons/si";
-import { FaAws, FaCode, FaCube, FaDatabase, FaJava, FaPaintBrush, FaProjectDiagram, FaPython, FaWater } from "react-icons/fa";
+import { FaAws, FaCloud, FaCloudUploadAlt, FaCode, FaCogs, FaCube, FaDatabase, FaDesktop, FaEye, FaIdBadge, FaJava, FaKey, FaLayerGroup, FaMobileAlt, FaMoneyCheckAlt, FaPaintBrush, FaProjectDiagram, FaPython, FaSitemap, FaTasks, FaTerminal, FaUserShield, FaWater } from "react-icons/fa";
 import { MdAccountTree, MdDesignServices, MdDesktopWindows, MdWidgets, MdWindow } from "react-icons/md";
 import { HiOutlineMail } from "react-icons/hi";
 
@@ -54,25 +59,41 @@ const techs = [
   { name: "Java Swing", icon: MdDesktopWindows, color: "text-orange-600", type: "Java GUI Framework" },
   { name: "HTML5", icon: SiHtml5, color: "text-orange-600", type: "Markup Language" },
   { name: "CSS3", icon: SiCss3, color: "text-blue-600", type: "Style Sheet Language" },
+   { name: "OpenAI", icon: SiOpenai, color: "text-pink-500", type: "AI Research & API" },
   { name: "SCSS", icon: SiSass, color: "text-pink-500", type: "CSS Preprocessor" },
+  { name: "TensorFlow", icon: SiTensorflow, color: "text-orange-600", type: "ML Framework" },
+  { name: "Flutter", icon: SiFlutter, color: "text-blue-400", type: "UI Framework" },
+  { name: "Dart", icon: SiDart, color: "text-blue-700", type: "Programming Language" },
 
   
 ];
 
 const technoliges = [
   { name: "Git & GitHub", icon: SiGithub, color: "text-white", type: "Version Control" },
-  { name: "Docker", icon: SiDocker, color: "text-blue-400", type: "Containerization" },
   { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-600", type: "CSS Framework" },
+  { name: "Convex", icon: FaCloud, color: "text-purple-500", type: "Database-Service" },
   { name: "Flowbite", icon: FaWater, color: "text-blue-400", type: "UI Component Library" },
   { name: "Chadcn UI", icon: MdDesignServices, color: "text-green-400", type: "UI Component Library" },
   { name: "Material-UI", icon: FaCube, color: "text-blue-700", type: "UI Component Library" },
   { name: "AWS", icon: FaAws, color: "text-orange-400", type: "Cloud Platform" },
-  { name: "Redux", icon: SiRedux, color: "text-purple-600", type: "State Management" },
+  { name: "Redux /Redux Toolkit", icon: SiRedux, color: "text-purple-600", type: "State Management" },
+  { name: "Angular Material", icon: FaLayerGroup, color: "text-red-600", type: "UI Component Library" },
   { name: "SendGrid", icon: HiOutlineMail, color: "text-blue-500", type: "Email Service" },
   { name: "Vercel", icon: SiVercel, color: "text-black", type: "Hosting Platform" },
   { name: "Apache Kafka", icon: SiApachekafka, color: "text-red-600", type: "Event Streaming" },
-
- 
+  { name: "Docker", icon: SiDocker, color: "text-blue-400", type: "Containerization" },
+  { name: "Kubernetes", icon: SiKubernetes, color: "text-blue-600", type: "Container Orchestration" },
+  { name: "Scene Builder", icon: FaDesktop, color: "text-blue-500", type: "GUI Design Tool" },
+  { name: "Clerk", icon: FaUserShield, color: "text-blue-500", type: "Authentication Provider" },
+  { name: "JWT", icon: FaKey, color: "text-yellow-500", type: "Token-based Auth" },
+  { name: "Keycloak", icon: FaIdBadge, color: "text-green-600", type: "Identity Provider" },
+  { name: "Maven", icon: FaCogs, color: "text-orange-500", type: "Build Tool" },
+  { name: "Swagger", icon: FaSitemap, color: "text-lime-500", type: "API Documentation" },
+  { name: "Grafana", icon: FaEye, color: "text-orange-500", type: "Monitoring Dashboard" },
+  { name: "Cloudinary", icon: FaCloudUploadAlt, color: "text-sky-500", type: "Media Management" },
+  { name: "Stripe", icon: FaMoneyCheckAlt, color: "text-indigo-600", type: "Payment Gateway" },
+  { name: "Expo", icon: FaMobileAlt, color: "text-teal-400", type: "React Native Framework" },
+  
 ];
 
 
@@ -85,7 +106,10 @@ const tools = [
   { name: "Postman", icon: SiPostman, color: "text-orange-500", type: "API Testing Tool" },
   { name: "Canva", icon: FaPaintBrush, color: "text-purple-500", type: "Design Tool" },
   { name: "MoonModeler", icon: MdAccountTree , color: "text-blue-600", type: "Database Modeling" },
-   
+  { name: "Jira", icon: FaTasks, color: "text-indigo-500", type: "Project Management Tool" },
+  { name: "PyCharm", icon: FaCode, color: "text-green-700", type: "IDE / Code Editor" },
+  { name: "Geany", icon: FaTerminal, color: "text-teal-600", type: "Lightweight IDE" },
+  { name: "StarUML", icon: FaProjectDiagram, color: "text-pink-500", type: "Modeling Tool" },
 
 ];
 
